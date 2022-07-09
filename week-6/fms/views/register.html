@@ -1,7 +1,4 @@
-<%- include('_header.html') %>
-
-<%- include('_navbar.html') %>
-
+<%- include('_header.ejs') %>
 <section class="container">
     <h1 class="center-text"><%= message %></h1>
     <div class="card center-div">
@@ -19,6 +16,10 @@
                     <div class="form-field">
                         <label for="password">Password</label><br />
                         <input type="password" class="input" name="password" id="password" required>
+                    </div>
+                     <div class="form-field">
+                        <label for="email">Email</label><br />
+                        <input type="email" class="input" name="email" id="email" required>
                     </div>
 
                     <div class="form-field">
